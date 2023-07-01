@@ -219,31 +219,3 @@ See more at [exec example](examples/pod_exec.py).
 
 **[⬆ back to top](#Installation)**
 
-
-# My design portfolio
-#### Video Demo:  <URL HERE>
-#### Description:
-I've recreated my design portfolio using HTML, CSS, Python and Jinja templating.
-Since I had created a version with the4 no-code platfrom Webflow, there might be some similarities as I follow the same structure and have added the same case studies.
-
-## Installation
-Install email-validator from https://pypi.org/project/email-validator/.
-This package is on PyPI, so:
-
-```
-pip install email-validator
-```
-(You might need to use pip3 depending on your local environment.)
-
-
-## Example from my code
-
-Verify validity of email in my Contact page
-
-```
-#Check email validity
-try:
-    val = validate_email(email)
-except EmailNotValidError as e:
-    return apology("must provide valid email", 403)
-```
